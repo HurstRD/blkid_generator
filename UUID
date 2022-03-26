@@ -1,0 +1,3 @@
+String generateID() {
+    return UUID.randomUUID().toString().replaceAll("-","");
+}
